@@ -1,8 +1,3 @@
-# React-Mobx-Demo
-
-![preview](./preview.gif)
-
-```js
 import React from "react";
 
 import { useLocalStore } from "mobx-react";
@@ -24,4 +19,3 @@ const StoreProvider = ({ children }) => {
 };
 
 export default StoreProvider;
-```
